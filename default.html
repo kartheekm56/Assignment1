@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sample Page</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/large.css">
+   <link href="css/slick.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	
+	<script type="text/javascript" src="js/slick.min.js"></script>  
+  <script type="text/javascript" src="js/jquery.min.min.js"></script>  
+  <script type="text/javascript" src="js/plugins.js"></script>  
+</head>
+<body>
+<div id="top">
+<!--<li>
+<ul class="hom hom2"><a class="linking" href="">Home</a></ul>
+<ul class="hom"><a class="linking" href="">About</a></ul>
+<ul class="hom"><a class="linking" href="">News</a></ul>
+<ul class="hom"><a class="linking" href="">Contact</a></ul>
+</li>-->
+
+<ul><li>Home</li>
+  <li><a href="http://www.fifa.com/" target=_blank>About</a></li>
+  <li>
+    Teams
+    <ul>
+      <li><a class="linking" href="#second">Barcelona FC </a></li>
+        <li><a class="linking" href="#third">Real Madrid</a></li>
+       <li><a class="linking" href="#fourth">Manchester United</a></li>  
+   		<li><a class="linking" href="#fifth">Liverpool</a></li> 
+    </ul>
+  </li>
+  <li><a href="http://www.espnfc.us/" target=_blank>News</a></li>
+  <li>Contact</li>
+</ul>
+    
+  
+</div>
+<div>
+<h1 class="watch">Watch the Best Soccer Matches.</h1></div>
+<div id="second">
+
+<p class="team">Barcelona FC </p>
+<p class="found">Founded in 1899 by a group of Swiss, English and Catalan footballers led by Joan Gamper, the club has become a symbol of Catalan culture and Catalanism, hence the motto &quot;M&eacute;s que un club&quot; (More than a club). Unlike many other football clubs, the supporters own and operate Barcelona. It is the second most valuable sports team in the world, worth $3.2 billion, and the world's fourth richest football club in terms of revenue, with an annual turnover of &euro;484.6 million.The official Barcelona anthem is the &quot;Cant del Bar&ccedil;a&quot;, written by Jaume Picas and Josep Maria Espin&agrave;</p>
+</div>
+
+<div id="third">
+<h2 class="watch2">Real Madrid</h2>
+<p class="found found2">Founded in 1902 as Madrid Football Club, the team has traditionally worn a white home kit since. The word Real is Spanish for Royal and was bestowed to the club by King Alfonso XIII in 1920 together with the royal crown in the emblem. The team has played its home matches in the 81,044-capacity Santiago Bernab&eacute;u Stadium in downtown Madrid since 1947. Unlike most European football clubs, Real Madrid's members (socios) have owned and operated the club since its inception.</p>
+</div>
+
+
+<div id="fourth">
+<h2 class="watch2 manchest">Manchester United</h2>
+<p class="found found3">Manchester United have won 20 league titles, the most of any English club, 11 FA Cups, four League Cups and a record 20 FA Community Shields. The club has also won three European Cups, one UEFA Cup Winners' Cup, one UEFA Super Cup, one Intercontinental Cup and one FIFA Club World Cup. In 1998&ndash;99, the club achieved a treble of the Premier League, the FA Cup and the UEFA Champions League.</p>
+</div>
+
+<div id="fifth">
+<h2 class="watch2 manchest">Liverpool</h2>
+<p class="found found3">Liverpool were founded in 1892 and joined the Football League the following year. They have played at Anfield since its formation. The most successful period in Liverpool's history was the 1970s and '80s when Bill Shankly and Bob Paisley led the club to eleven league titles and seven European trophies.</p>
+</div>
+
+<div class="soccer">
+ <div>
+
+ <p class="entertain">Don't miss the Entertainment</p>
+                        <img class="match" src="images/6.jpg" width="800" height="500">
+                    </div>
+                    <div>
+                    <p class="entertain">Don't miss the Entertainment</p>
+                        <img class="match" src="images/7.jpg" width="800" height="500">
+                    </div>
+                </div>
+<footer>
+<p class="rights">&copy; 2015. All rights reserved.<span class="policy">Privacy Policy</span></p>
+</footer>
+
+   <script type="text/javascript">
+
+       $(document).ready(function () {
+            $('.soccer').slick({
+				slidesToShow: 1,
+  	 			 autoplay: true,
+				autoplaySpeed: 1000,
+				arrows:true
+
+        });
+    });
+    </script>
+</body>
+</html>
+
+
